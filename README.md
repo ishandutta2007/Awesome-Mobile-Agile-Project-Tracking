@@ -2,200 +2,87 @@
 
 ## Top Mobile Agile Project Tracking Ecosystem
 
-
-
 **Curated List of SaaS Products & Open-Source GitHub Projects**  
-
 *Focused on Native Mobile Sprint Tracking, Offline Kanban & Self-Hosted Agile Backends*  
 
 **Last updated: November 2026**
 
-
-
 This repository tracks notable **SaaS platforms** and **open-source projects** for **Mobile Agile Project Tracking**. These tools enable product teams, scrum masters, and developers to manage sprints, update issues, and review boards directly from their phones—keeping ceremonies and daily standups accessible without a laptop.
-
-
-
-**Examples** include Jira Mobile, Linear Mobile, Asana Mobile, Monday.com Mobile, ClickUp Mobile, GitHub Mobile, Trello Mobile, Shortcut Mobile, Wrike Mobile, and Basecamp Mobile (the category leaders).
-
-
-
-**Open-source emphasis**: Mobile Agile Tracking is a domain where open-source tooling is **genuinely emerging but the mobile experience is often unofficial or early-stage**. The strongest native mobile options are **Taiga Mobile Nova** (an unofficial Android client for Taiga.io with full Kanban, sprint, and wiki access)  and **Vikunja's cross-platform app** (Android/iOS, though it is in **alpha pre-release** and explicitly warns against production use) . **Plane Mobile** is the official Flutter app for Plane, but the README states it is "still in its early days, not everything will be perfect yet" . The critical caveat: **Focalboard's standalone version has been unmaintained since June 2024**—Mattermost absorbed its functionality, so the mobile app is effectively frozen . **Leantime offers a mobile app** that works with self-hosted or cloud workspaces, but it is a companion for focus rather than a full agile tracker . **No open-source project matches the polish of Linear Mobile or Jira Mobile**—open-source apps are typically unofficial clients or early-stage official releases.
-
-
 
 Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
 
-
-
 ## Table of Contents
 
-- [SaaS/Hosted Platforms](#saas-products)
-
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
+- [SaaS/Hosted Platforms](#saas-hosted-platforms)
 - [Open-Source GitHub Projects](#open-source-github-projects)
-
 - [How to Contribute](#how-to-contribute)
-
 - [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[Jira Mobile](https://www.atlassian.com/software/jira)**  
-
-  Atlassian's native mobile app; manage issues, update sprints, view boards, and collaborate on the go.
-
-
-
-- **[Linear Mobile](https://linear.app/)**  
-
-  Native mobile app for Linear's issue tracker; known for speed and a polished mobile experience.
-
-
-
-- **[Asana Mobile](https://asana.com/)**  
-
-  Native mobile project management; view timelines, update tasks, and collaborate on the go.
-
-
-
-- **[Monday.com Mobile](https://monday.com/)**  
-
-  Mobile access to monday.com's work OS; boards, dashboards, and updates on mobile.
-
-
-
-- **[ClickUp Mobile](https://clickup.com/)**  
-
-  Mobile access to ClickUp's all-in-one platform; tasks, docs, and goals on the go.
-
-
-
-- **[GitHub Mobile](https://github.com/)**  
-
-  Native mobile app for GitHub; manage issues, pull requests, and notifications from your phone.
-
-
-
-- **[Trello Mobile](https://trello.com/)**  
-
-  Native mobile kanban boards; cards, lists, and Power-Ups on iOS and Android.
-
-
-
-- **[Shortcut Mobile](https://shortcut.com/)**  
-
-  Mobile access to Shortcut's project management; stories, epics, and iterations on the go.
-
-
-
-- **[Wrike Mobile](https://www.wrike.com/)**  
-
-  Mobile access to Wrike's work management; tasks, timelines, and collaboration on mobile.
-
-
-
-- **[Basecamp Mobile](https://basecamp.com/)**  
-
-  Native mobile app for Basecamp's project management and team communication.
-
-
-
-## Open-Source GitHub Projects
-
-
-
-### Native Mobile Agile Clients (Taiga, Vikunja, Plane)
-
-
-
-- **[Taiga Mobile Nova](https://fdroid.org/en/packages/com.grappim.taigamobile.fdroid/)**  
-
-  An **unofficial Android client for Taiga.io** (open-source agile project management) . Features: **Dashboard** (view projects, working on items, watching items); **Projects** (browse and manage); **Kanban Board** with drag-and-drop cards; **Sprints** (track progress, manage backlogs); **User Stories** (create, edit, track); **Tasks** and **Issues**; **Epics**; and **Wiki** access . Built with Jetpack Compose and Material Design 3; requires Android 7.0+ . **Best for Android users already running Taiga** wanting a native mobile client—but it is **unofficial** and iOS is not supported .
-
-
-
-- **[Vikunja Cross-Platform App](https://github.com/go-vikunja/app)**  
-
-  A **cross-platform app for Vikunja** (the open-source, self-hostable to-do and project management app) . Vikunja supports **List, Gantt, Table, and Kanban views**; the app requires the latest stable Vikunja build . **Critical caveat**: the app is in **alpha pre-release**—the README explicitly warns "You must absolutely expect things to not work, and sometimes even break something in the backend. Using this app on important production backends is possible but discouraged" . **Best for Vikunja users wanting mobile access**—but not ready for production reliance .
-
-
-
-- **[Plane Mobile](https://github.com/makeplane/plane-mobile)**  
-
-  The **official Flutter mobile app for Plane** (open-source Jira/Linear alternative) . Features: **issue planning and tracking** with rich text editor and file uploads; **List, Kanban, and Calendar layouts**; **Cycles** (sprints) with burn-down charts; **Modules** for breaking down large projects . **Critical caveat**: the README states "Plane Mobile is still in its early days, not everything will be perfect yet, and hiccups may happen" . **Best for Plane users wanting an official mobile app**—but it is early-stage and not feature-complete .
-
-
-
-### Mobile-Friendly Web Apps (No Native App)
-
-
-
-- **[Scrum Agile Transformation Studio](https://github.com/alfredang/scrum)**  
-
-  A **single-file, mobile-friendly collaborative Scrum studio** (HTML/CSS/JS + Firebase, MIT-style) . Features: **Product Vision, Roadmap, Backlog, Sprint Planning with Planning Poker, Sprint Backlog Kanban, Daily Scrum with timer, Sprint Execution with burndown, Sprint Review, Retrospective (4 formats), Agile Metrics, and Transformation roadmap** . **Mobile-first design**: bottom nav, FAB, touch drag-and-drop, responsive boards; **QR-code workspace joining** to scan and join from any device . **Critical caveat**: it is a **web app, not a native mobile app**—no offline mobile support beyond localStorage demo mode . **Best for small teams wanting a free, collaborative Scrum tool** accessible from mobile browsers—not a native agile tracker .
-
-
-
-- **[Leantime Mobile](https://apkpure.com/leantime-tasks-focus/io.leantime.mobile)**  
-
-  A **mobile companion for Leantime** (open-source project management) . Works with existing Cloud or self-hosted Leantime workspaces; designed as a "calm way to focus on what matters today" . The app does not create accounts—your data stays on your Leantime server . **Best for Leantime users wanting a focused mobile companion**—but it is not a full agile tracking app with sprint boards or backlog management .
-
-
-
-### Unmaintained / Caution
-
-
-
-- **[Focalboard](https://apps.apple.com/de/app/focalboard/id1556908618)**  
-
-  **CAUTION**: Focalboard's standalone version has been **unmaintained since June 2024**—Mattermost absorbed its functionality into Mattermost Boards, and the standalone Docker image is effectively abandoned . The iOS/Mac app exists but **will receive no patches or security fixes** . **Best for Mattermost users** (use the plugin, not standalone)—not for new deployments .
-
-
-
-**Frameworks for building custom systems**: For **Android users on Taiga**, Taiga Mobile Nova provides the most complete native client . For **Vikunja users**, the cross-platform app offers mobile access but is alpha . For **Plane users**, Plane Mobile is official but early-stage . For **web-based Scrum on mobile**, Scrum Agile Transformation Studio provides a mobile-first web app . **Avoid Focalboard** for new projects—it is unmaintained . **No open-source project matches the polish of Linear Mobile or Jira Mobile**—open-source apps are typically unofficial clients or early-stage official releases, and the native mobile experience remains a commercial advantage.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Mobile agile tracking platforms handling project and sprint data must comply with organizational data governance policies; **self-hosted solutions place full responsibility for security patches, backups, and mobile sync infrastructure on the operator**.
-
-- **Open-source mobile agile tracking is early-stage and fragmented**—**Taiga Mobile Nova is unofficial but functional** , **Vikunja's app is alpha** with explicit production warnings , and **Plane Mobile is official but early-stage** . **Focalboard is unmaintained since June 2024**—do not deploy for new projects . **No open-source project matches the polish of Linear Mobile or Jira Mobile**—choose based on whether you prioritize native Android (Taiga), cross-platform (Vikunja, Plane), or mobile web (Scrum Studio).
-
-- Verify license terms for commercial use; Taiga Mobile Nova is an unofficial F-Droid client (check Taiga's license), Vikunja's app is open-source (check repository), and Plane Mobile is part of the Plane project (AGPL-3.0 for the core) .
-
-
 
 ---
 
+## Sector Overview & Market Dynamics
 
+The global agile project and task management software market is estimated at approximately **$5.5B to $7.2B in 2026**, expanding at a compound annual growth rate (CAGR) of over 13% as remote/hybrid sprint management accelerates. The market exhibits **moderate fragmentation with high enterprise concentration**—dominated at the top tier by Atlassian (Jira/Trello), Microsoft (GitHub Projects), and Asana, while modern challengers (Linear, ClickUp, monday.com) fiercely compete for developer mindshare through superior mobile-first UX and real-time syncing.
 
-**Made for scrum masters, product owners, and developers choosing their on-the-go agile tracking stack.**  
+---
 
-Let's make mobile agile tracking more open, but with clear eyes about the unofficial-client and alpha-stage gaps that separate open-source from the polished commercial apps.
+## SaaS/Hosted Platforms
+
+| Platform | Company Valuation / Revenue | Pricing (Starting Tier) | Free Tier Limits | Mobile Agile Features |
+| :--- | :--- | :--- | :--- | :--- |
+| **[GitHub Mobile](https://github.com/)** | ~$3.1T (Microsoft Parent Market Cap) | $4/user/month (Team tier billed monthly, or $3.67/mo billed annually) | Free forever; unlimited public/private repos, 2,000 CI/CD mins/month, 500MB Packages storage, community support | Native issue triage, mobile Projects (v2) Kanban board browsing, sprint assignment, PR reviews, push notifications. |
+| **[Jira Mobile](https://www.atlassian.com/software/jira)** | ~$45B+ (Atlassian Market Cap, ~$4.4B FY24 ARR) | $7.53/user/month (Standard plan billed annually) | Free forever up to 10 users; 2 GB file storage, Scrum and Kanban boards, backlog management, community support | Full native Jira sprint tracking, drag-and-drop Kanban, backlog grooming, real-time issue updates, push notifications. |
+| **[Wrike Mobile](https://www.wrike.com/)** | ~$2.25B (Acquired by STG / former Citrix valuation) | $9.80/user/month (Team plan billed annually) | Free forever for unlimited users with basic task management, 2 GB total storage space, and limited active task limits | Mobile Gantt and Kanban boards, sprint task tracking, custom request forms, and offline work sync. |
+| **[Asana Mobile](https://asana.com/)** | ~$3.2B (Market Cap, ~$700M+ ARR) | $10.99/user/month (Starter plan billed annually) | Free forever up to 10 users; unlimited tasks and projects, list/board/calendar views, 100MB file attachments limit | Native task boards, sprint milestone tracking, timeline overviews, and mobile team collaboration. |
+| **[Monday.com Mobile](https://monday.com/)** | ~$13B+ (Market Cap, ~$950M+ ARR) | $9/user/month (Basic plan, 3-seat minimum = $27/month billed annually) | Free forever up to 2 seats; 3 boards, 200+ templates, unlimited docs, 500MB storage | Mobile Work OS boards, agile sprint tracking, visual customizable status columns, and dashboard widgets. |
+| **[ClickUp Mobile](https://clickup.com/)** | ~$4.0B (Valuation, ~$200M+ ARR) | $7/user/month (Unlimited plan billed annually) | Free forever for unlimited users; 100MB storage, 100 uses of custom fields, 100 uses of Gantt & Sprint points | Native all-in-one mobile app for task management, sprint cycle views, checklists, and document collaboration. |
+| **[Trello Mobile](https://trello.com/)** | Part of Atlassian (~$45B Market Cap, acquired for $425M) | $5/user/month (Standard plan billed annually) | Free forever for unlimited members; up to 10 workspace boards, unlimited Power-Ups, 10MB file attachments limit | Polished native mobile card and board manipulation, offline Kanban editing, labels, checklist tracking, and Power-Ups. |
+| **[Linear Mobile](https://linear.app/)** | ~$1.25B (Valuation, ~$30M+ ARR) | $8/user/month (Standard plan billed annually) | Free forever up to 250 active issues; unlimited users, full export capability, 10MB file upload limit | Lightning-fast native mobile client, cycle (sprint) tracking, offline support, triage inbox, keyboard-first feel on mobile. |
+| **[Shortcut Mobile](https://shortcut.com/)** | ~$500M (Valuation / Series B funding) | $8.50/user/month (Team plan billed annually) | Free forever up to 4 users; unlimited stories, unlimited epics, core docs, full API access | Native story cards, iteration/sprint boards, epic roadmaps, and developer-tailored workflows. |
+| **[Basecamp Mobile](https://basecamp.com/)** | Bootstrapped / Private (~$100M+ estimated annual revenue) | $15/user/month (Basecamp standard; or $299/month flat Basecamp Pro Unlimited) | 30-day full-featured free trial with all features and no user caps; no permanent free tier | Hill charts for progress tracking, to-do lists, message boards, real-time campfire chats, and client-friendly portals. |
+
+---
+
+## Open-Source GitHub Projects
+
+The table below catalogs open-source agile trackers and native mobile companion clients, sorted by GitHub star counts (descending).
+
+| Project | Stars | Platform / Architecture | Description |
+| :--- | :--- | :--- | :--- |
+| **[AppFlowy](https://github.com/AppFlowy-IO/AppFlowy)** | [![GitHub stars](https://img.shields.io/github/stars/AppFlowy-IO/AppFlowy?style=social&color=white)](https://github.com/AppFlowy-IO/AppFlowy/stargazers) | Flutter / Rust (Android, iOS, Desktop) | Open-source Notion and Jira alternative with native mobile clients for iOS and Android, Kanban boards, and offline-first sync. |
+| **[Focalboard](https://github.com/mattermost-community/focalboard)** | [![GitHub stars](https://img.shields.io/github/stars/mattermost-community/focalboard?style=social&color=white)](https://github.com/mattermost-community/focalboard/stargazers) | Go / React / Native (iOS/macOS) | Open-source self-hosted Trello/Asana/Notion alternative. *(Note: Standalone version unmaintained since June 2024; active within Mattermost).* |
+| **[WeKan](https://github.com/wekan/wekan)** | [![GitHub stars](https://img.shields.io/github/stars/wekan/wekan?style=social&color=white)](https://github.com/wekan/wekan/stargazers) | Node.js / Meteor (Mobile PWA & Native WeNa) | Collaborative open-source Kanban board with responsive touch support for mobile browsers and offline SQLite client development. |
+| **[OpenProject](https://github.com/opf/openproject)** | [![GitHub stars](https://img.shields.io/github/stars/opf/openproject?style=social&color=white)](https://github.com/opf/openproject/stargazers) | Ruby on Rails / Angular (Mobile Responsive Web) | Enterprise-grade open-source agile project management software featuring sprint backlogs, task boards, bug tracking, and mobile web views. |
+| **[Planka](https://github.com/plankanban/planka)** | [![GitHub stars](https://img.shields.io/github/stars/plankanban/planka?style=social&color=white)](https://github.com/plankanban/planka/stargazers) | Node.js / React (Community Flutter Mobile Client) | Elegant open-source Kanban board for tracking sprint cards, tasks, user assignments, and timers with community mobile app support. |
+| **[Leantime](https://github.com/Leantime/leantime)** | [![GitHub stars](https://img.shields.io/github/stars/Leantime/leantime?style=social&color=white)](https://github.com/Leantime/leantime/stargazers) | PHP / Vue.js (Android & iOS Companion App) | Open-source, ADHD-friendly agile system combining Kanban boards, milestones, sprint management, and native mobile focus apps. |
+| **[Nextcloud Deck](https://github.com/nextcloud/deck)** | [![GitHub stars](https://img.shields.io/github/stars/nextcloud/deck?style=social&color=white)](https://github.com/nextcloud/deck/stargazers) | PHP / Nextcloud (Native Android Client Available) | Kanban-style task board integrated into Nextcloud, supporting sprint tags, attachments, and native Android syncing. |
+| **[Vikunja Cross-Platform App](https://github.com/go-vikunja/app)** | [![GitHub stars](https://img.shields.io/github/stars/go-vikunja/app?style=social&color=white)](https://github.com/go-vikunja/app/stargazers) | Flutter (Android & iOS) | Official cross-platform mobile client for Vikunja supporting Kanban, sprint tasks, and checklists. *(Alpha pre-release).* |
+| **[Nextcloud Deck Android](https://github.com/stefan-niedermann/nextcloud-deck)** | [![GitHub stars](https://img.shields.io/github/stars/stefan-niedermann/nextcloud-deck?style=social&color=white)](https://github.com/stefan-niedermann/nextcloud-deck/stargazers) | Kotlin / Android Native | Full-featured native Android app for Nextcloud Deck boards, with offline caching, card dragging, and instant board sync. |
+| **[Plane Mobile](https://github.com/makeplane/plane-mobile)** | [![GitHub stars](https://img.shields.io/github/stars/makeplane/plane-mobile?style=social&color=white)](https://github.com/makeplane/plane-mobile/stargazers) | Flutter (Android & iOS) | Official mobile app for Plane (open-source Jira/Linear alternative), with Cycle sprint tracking, modules, and issue layouts. |
+| **[Taiga Mobile](https://github.com/EugeneTheDev/TaigaMobile)** | [![GitHub stars](https://img.shields.io/github/stars/EugeneTheDev/TaigaMobile?style=social&color=white)](https://github.com/EugeneTheDev/TaigaMobile/stargazers) | Kotlin / Android Native | Native Android client for Taiga.io agile management, supporting sprint task boards, issue tracking, and user story transitions. |
+| **[Planka Flutter App](https://github.com/LouisHDev/planka_app)** | [![GitHub stars](https://img.shields.io/github/stars/LouisHDev/planka_app?style=social&color=white)](https://github.com/LouisHDev/planka_app/stargazers) | Dart / Flutter (Android & iOS) | Unofficial open-source Flutter mobile client for Planka Kanban servers, offering on-the-go board and task updates. |
+| **[Taiga Mobile Nova](https://github.com/Grigoriym/TaigaMobileNova)** | [![GitHub stars](https://img.shields.io/github/stars/Grigoriym/TaigaMobileNova?style=social&color=white)](https://github.com/Grigoriym/TaigaMobileNova/stargazers) | Jetpack Compose / Android | Modern open-source Android client for Taiga.io with sprint tracking, Kanban board manipulation, and wiki access. |
+| **[Scrum Agile Studio](https://github.com/alfredang/scrum)** | [![GitHub stars](https://img.shields.io/github/stars/alfredang/scrum?style=social&color=white)](https://github.com/alfredang/scrum/stargazers) | HTML5 / JS / Mobile Web | Single-file mobile-friendly collaborative Scrum studio with planning poker, burndown charts, and touch sprint Kanban. |
+
+---
+
+## How to Contribute
+
+1. Fork the repo.
+2. Add/edit entries in `README.md` (follow existing format).
+3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
+4. Submit PR with a short explanation.
+
+Star the repo if you find it useful!
+
+## Disclaimer
+
+- This is a **community-curated** list — not exhaustive and not an endorsement.
+- Mobile agile tracking platforms handling project and sprint data must comply with organizational data governance policies; **self-hosted solutions place full responsibility for security patches, backups, and mobile sync infrastructure on the operator**.
+- **Open-source mobile agile tracking is early-stage and fragmented**—clients like Taiga Mobile Nova, Vikunja, and Plane Mobile offer active development, but self-hosted deployments require continuous maintenance.
+- Verify license terms for commercial use.
+
+---
+
+**Made for scrum masters, product owners, and developers choosing their on-the-go agile tracking stack.**
