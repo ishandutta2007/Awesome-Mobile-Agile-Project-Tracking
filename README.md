@@ -1,58 +1,73 @@
-# Awesome-Mobile-Agile-Project-Tracking
+<div align="center">
 
-## Top Mobile Agile Project Tracking Ecosystem
+<img src="./assets/banner.svg" alt="Awesome Mobile Agile Project Tracking Banner" width="100%" />
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-*Focused on Native Mobile Sprint Tracking, Offline Kanban & Self-Hosted Agile Backends*  
+# 🚀 Awesome Mobile Agile Project Tracking 📱
 
-**Last updated: November 2026**
+**A curated index of top-tier SaaS platforms, self-hosted solutions, and open-source GitHub projects for mobile agile project management, sprint backlogs, issue tracking, and offline Kanban boards on iOS & Android.**
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Mobile Agile Project Tracking**. These tools enable product teams, scrum masters, and developers to manage sprints, update issues, and review boards directly from their phones—keeping ceremonies and daily standups accessible without a laptop.
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Mobile-Agile-Project-Tracking/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Mobile-Agile-Project-Tracking?style=social" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Mobile-Agile-Project-Tracking/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Mobile-Agile-Project-Tracking?style=social" alt="GitHub Forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Mobile-Agile-Project-Tracking/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License: MIT" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Mobile-Agile-Project-Tracking/pulls"><img src="https://img.shields.io/badge/PRs-Welcome-brightgreen.svg" alt="PRs Welcome" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-## Table of Contents
-
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
-
----
-
-## Sector Overview & Market Dynamics
-
-The global agile project and task management software market is estimated at approximately **$5.5B to $7.2B in 2026**, expanding at a compound annual growth rate (CAGR) of over 13% as remote/hybrid sprint management accelerates. The market exhibits **moderate fragmentation with high enterprise concentration**—dominated at the top tier by Atlassian (Jira/Trello), Microsoft (GitHub Projects), and Asana, while modern challengers (Linear, ClickUp, monday.com) fiercely compete for developer mindshare through superior mobile-first UX and real-time syncing.
+</div>
 
 ---
 
-## SaaS/Hosted Platforms
+## 📖 Table of Contents
 
-| Platform | Company Valuation / Revenue | Pricing (Starting Tier) | Free Tier Limits | Mobile Agile Features |
+- [📌 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [☁️ SaaS & Hosted Platforms](#️-saas--hosted-platforms)
+- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [⭐ Star History](#-star-history)
+- [⚖️ Disclaimer](#️-disclaimer)
+
+---
+
+## 📌 Sector Overview & Market Dynamics
+
+The global agile project management and issue tracking software sector is projected to reach approximately **$5.5B to $7.2B in 2026**, registering a steady compound annual growth rate (CAGR) of 13.2%. As distributed engineering teams embrace continuous mobile availability, mobile sprint triage and on-the-go standup reviews have transitioned from nice-to-have companion utilities to mission-critical workflows.
+
+The competitive landscape is **moderately fragmented with significant enterprise concentration** at the upper echelon. Mega-cap ecosystem players—most notably Microsoft (GitHub Projects) and Atlassian (Jira, Trello)—dominate enterprise installations, while high-velocity challengers like Linear, monday.com, and ClickUp compete aggressively on mobile speed, fluid gesture control, and offline sync performance. In parallel, self-hostable open-source alternatives are rapidly maturing across Flutter and native Android stacks to deliver privacy-first agile workflows.
+
+---
+
+## ☁️ SaaS & Hosted Platforms
+
+A comprehensive comparison of top commercial agile project tracking platforms offering native mobile applications on iOS and Android. Sorted by company valuation / annual recurring revenue (descending).
+
+| 🏢 Platform | 💰 Company Valuation / Revenue | 🏷️ Pricing (Starting Tier) | 🎁 Free Tier Limits | 📱 Mobile Agile Capabilities |
 | :--- | :--- | :--- | :--- | :--- |
-| **[GitHub Mobile](https://github.com/)** | ~$3.1T (Microsoft Parent Market Cap) | $4/user/month (Team tier billed monthly, or $3.67/mo billed annually) | Free forever; unlimited public/private repos, 2,000 CI/CD mins/month, 500MB Packages storage, community support | Native issue triage, mobile Projects (v2) Kanban board browsing, sprint assignment, PR reviews, push notifications. |
-| **[Jira Mobile](https://www.atlassian.com/software/jira)** | ~$45B+ (Atlassian Market Cap, ~$4.4B FY24 ARR) | $7.53/user/month (Standard plan billed annually) | Free forever up to 10 users; 2 GB file storage, Scrum and Kanban boards, backlog management, community support | Full native Jira sprint tracking, drag-and-drop Kanban, backlog grooming, real-time issue updates, push notifications. |
-| **[Wrike Mobile](https://www.wrike.com/)** | ~$2.25B (Acquired by STG / former Citrix valuation) | $9.80/user/month (Team plan billed annually) | Free forever for unlimited users with basic task management, 2 GB total storage space, and limited active task limits | Mobile Gantt and Kanban boards, sprint task tracking, custom request forms, and offline work sync. |
-| **[Asana Mobile](https://asana.com/)** | ~$3.2B (Market Cap, ~$700M+ ARR) | $10.99/user/month (Starter plan billed annually) | Free forever up to 10 users; unlimited tasks and projects, list/board/calendar views, 100MB file attachments limit | Native task boards, sprint milestone tracking, timeline overviews, and mobile team collaboration. |
-| **[Monday.com Mobile](https://monday.com/)** | ~$13B+ (Market Cap, ~$950M+ ARR) | $9/user/month (Basic plan, 3-seat minimum = $27/month billed annually) | Free forever up to 2 seats; 3 boards, 200+ templates, unlimited docs, 500MB storage | Mobile Work OS boards, agile sprint tracking, visual customizable status columns, and dashboard widgets. |
-| **[ClickUp Mobile](https://clickup.com/)** | ~$4.0B (Valuation, ~$200M+ ARR) | $7/user/month (Unlimited plan billed annually) | Free forever for unlimited users; 100MB storage, 100 uses of custom fields, 100 uses of Gantt & Sprint points | Native all-in-one mobile app for task management, sprint cycle views, checklists, and document collaboration. |
-| **[Trello Mobile](https://trello.com/)** | Part of Atlassian (~$45B Market Cap, acquired for $425M) | $5/user/month (Standard plan billed annually) | Free forever for unlimited members; up to 10 workspace boards, unlimited Power-Ups, 10MB file attachments limit | Polished native mobile card and board manipulation, offline Kanban editing, labels, checklist tracking, and Power-Ups. |
-| **[Linear Mobile](https://linear.app/)** | ~$1.25B (Valuation, ~$30M+ ARR) | $8/user/month (Standard plan billed annually) | Free forever up to 250 active issues; unlimited users, full export capability, 10MB file upload limit | Lightning-fast native mobile client, cycle (sprint) tracking, offline support, triage inbox, keyboard-first feel on mobile. |
-| **[Shortcut Mobile](https://shortcut.com/)** | ~$500M (Valuation / Series B funding) | $8.50/user/month (Team plan billed annually) | Free forever up to 4 users; unlimited stories, unlimited epics, core docs, full API access | Native story cards, iteration/sprint boards, epic roadmaps, and developer-tailored workflows. |
-| **[Basecamp Mobile](https://basecamp.com/)** | Bootstrapped / Private (~$100M+ estimated annual revenue) | $15/user/month (Basecamp standard; or $299/month flat Basecamp Pro Unlimited) | 30-day full-featured free trial with all features and no user caps; no permanent free tier | Hill charts for progress tracking, to-do lists, message boards, real-time campfire chats, and client-friendly portals. |
+| **[GitHub Mobile](https://github.com/)** | ~$3.1T *(Microsoft Parent Market Cap)* | $4/user/month *(Team tier billed monthly, or $3.67/mo billed annually)* | Free forever; unlimited public/private repos, 2,000 CI/CD mins/month, 500MB Packages storage, community support | ⚡ Native issue triage, mobile Projects (v2) Kanban board browsing, sprint iteration assignment, PR reviews, push notifications. |
+| **[Jira Mobile](https://www.atlassian.com/software/jira)** | ~$45B+ *(Atlassian Market Cap, ~$4.4B FY24 ARR)* | $7.53/user/month *(Standard plan billed annually)* | Free forever up to 10 users; 2 GB file storage, Scrum and Kanban boards, backlog management, community support | 📋 Full native Jira sprint tracking, drag-and-drop Kanban, backlog grooming, real-time issue updates, push notifications. |
+| **[Monday.com Mobile](https://monday.com/)** | ~$13B+ *(Market Cap, ~$950M+ ARR)* | $9/user/month *(Basic plan, 3-seat minimum = $27/month billed annually)* | Free forever up to 2 seats; 3 boards, 200+ templates, unlimited docs, 500MB storage | 📊 Mobile Work OS boards, agile sprint tracking, visual customizable status columns, and dashboard widgets. |
+| **[ClickUp Mobile](https://clickup.com/)** | ~$4.0B *(Valuation, ~$200M+ ARR)* | $7/user/month *(Unlimited plan billed annually)* | Free forever for unlimited users; 100MB storage, 100 uses of custom fields, 100 uses of Gantt & Sprint points | 🎯 Native all-in-one mobile app for task management, sprint cycle views, checklists, and document collaboration. |
+| **[Asana Mobile](https://asana.com/)** | ~$3.2B *(Market Cap, ~$700M+ ARR)* | $10.99/user/month *(Starter plan billed annually)* | Free forever up to 10 users; unlimited tasks and projects, list/board/calendar views, 100MB file attachments limit | 🗓️ Native task boards, sprint milestone tracking, timeline overviews, and mobile team collaboration. |
+| **[Wrike Mobile](https://www.wrike.com/)** | ~$2.25B *(Acquired by STG / former Citrix valuation)* | $9.80/user/month *(Team plan billed annually)* | Free forever for unlimited users with basic task management, 2 GB total storage space, and limited active task limits | 📈 Mobile Gantt and Kanban boards, sprint task tracking, custom request forms, and offline work sync. |
+| **[Linear Mobile](https://linear.app/)** | ~$1.25B *(Valuation, ~$30M+ ARR)* | $8/user/month *(Standard plan billed annually)* | Free forever up to 250 active issues; unlimited users, full export capability, 10MB file upload limit | ⚡ Lightning-fast native mobile client, cycle (sprint) tracking, offline support, triage inbox, keyboard-first feel on mobile. |
+| **[Trello Mobile](https://trello.com/)** | Part of Atlassian *(~$45B Market Cap, acquired for $425M)* | $5/user/month *(Standard plan billed annually)* | Free forever for unlimited members; up to 10 workspace boards, unlimited Power-Ups, 10MB file attachments limit | 🗂️ Polished native mobile card and board manipulation, offline Kanban editing, labels, checklist tracking, and Power-Ups. |
+| **[Shortcut Mobile](https://shortcut.com/)** | ~$500M *(Valuation / Series B funding)* | $8.50/user/month *(Team plan billed annually)* | Free forever up to 4 users; unlimited stories, unlimited epics, core docs, full API access | 🛠️ Native story cards, iteration/sprint boards, epic roadmaps, and developer-tailored workflows. |
+| **[Basecamp Mobile](https://basecamp.com/)** | Bootstrapped / Private *(~$100M+ estimated annual revenue)* | $15/user/month *(Basecamp standard; or $299/month flat Basecamp Pro Unlimited)* | 30-day full-featured free trial with all features and no user caps; no permanent free tier | 🏕️ Hill charts for progress tracking, to-do lists, message boards, real-time campfire chats, and client-friendly portals. |
 
 ---
 
-## Open-Source GitHub Projects
+## 💻 Open-Source GitHub Projects
 
-The table below catalogs open-source agile trackers and native mobile companion clients, sorted by GitHub star counts (descending).
+Explore open-source mobile agile frameworks, self-hosted backends with mobile apps, and native community clients. Sorted in descending order by GitHub stars.
 
-| Project | Stars | Platform / Architecture | Description |
+| 📦 Repository | ⭐ Stars | 🏗️ Architecture & Mobile Client | 📝 Description |
 | :--- | :--- | :--- | :--- |
 | **[AppFlowy](https://github.com/AppFlowy-IO/AppFlowy)** | [![GitHub stars](https://img.shields.io/github/stars/AppFlowy-IO/AppFlowy?style=social&color=white)](https://github.com/AppFlowy-IO/AppFlowy/stargazers) | Flutter / Rust (Android, iOS, Desktop) | Open-source Notion and Jira alternative with native mobile clients for iOS and Android, Kanban boards, and offline-first sync. |
-| **[Focalboard](https://github.com/mattermost-community/focalboard)** | [![GitHub stars](https://img.shields.io/github/stars/mattermost-community/focalboard?style=social&color=white)](https://github.com/mattermost-community/focalboard/stargazers) | Go / React / Native (iOS/macOS) | Open-source self-hosted Trello/Asana/Notion alternative. *(Note: Standalone version unmaintained since June 2024; active within Mattermost).* |
-| **[WeKan](https://github.com/wekan/wekan)** | [![GitHub stars](https://img.shields.io/github/stars/wekan/wekan?style=social&color=white)](https://github.com/wekan/wekan/stargazers) | Node.js / Meteor (Mobile PWA & Native WeNa) | Collaborative open-source Kanban board with responsive touch support for mobile browsers and offline SQLite client development. |
+| **[Focalboard](https://github.com/mattermost-community/focalboard)** | [![GitHub stars](https://img.shields.io/github/stars/mattermost-community/focalboard?style=social&color=white)](https://github.com/mattermost-community/focalboard/stargazers) | Go / React / Native (iOS/macOS) | Open-source self-hosted Trello/Asana alternative. *(Note: Standalone version unmaintained since June 2024; active within Mattermost Boards).* |
+| **[WeKan](https://github.com/wekan/wekan)** | [![GitHub stars](https://img.shields.io/github/stars/wekan/wekan?style=social&color=white)](https://github.com/wekan/wekan/stargazers) | Node.js / Meteor (Mobile PWA & Native WeNa) | Collaborative open-source Kanban board with touch support for mobile browsers and offline SQLite client development. |
 | **[OpenProject](https://github.com/opf/openproject)** | [![GitHub stars](https://img.shields.io/github/stars/opf/openproject?style=social&color=white)](https://github.com/opf/openproject/stargazers) | Ruby on Rails / Angular (Mobile Responsive Web) | Enterprise-grade open-source agile project management software featuring sprint backlogs, task boards, bug tracking, and mobile web views. |
 | **[Planka](https://github.com/plankanban/planka)** | [![GitHub stars](https://img.shields.io/github/stars/plankanban/planka?style=social&color=white)](https://github.com/plankanban/planka/stargazers) | Node.js / React (Community Flutter Mobile Client) | Elegant open-source Kanban board for tracking sprint cards, tasks, user assignments, and timers with community mobile app support. |
 | **[Leantime](https://github.com/Leantime/leantime)** | [![GitHub stars](https://img.shields.io/github/stars/Leantime/leantime?style=social&color=white)](https://github.com/Leantime/leantime/stargazers) | PHP / Vue.js (Android & iOS Companion App) | Open-source, ADHD-friendly agile system combining Kanban boards, milestones, sprint management, and native mobile focus apps. |
@@ -67,22 +82,46 @@ The table below catalogs open-source agile trackers and native mobile companion 
 
 ---
 
-## How to Contribute
+## 🤝 How to Contribute
 
-1. Fork the repo.
-2. Add/edit entries in `README.md` (follow existing format).
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-4. Submit PR with a short explanation.
+Contributions are warmly welcomed! Help keep this agile directory comprehensive and up to date:
 
-Star the repo if you find it useful!
-
-## Disclaimer
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-- Mobile agile tracking platforms handling project and sprint data must comply with organizational data governance policies; **self-hosted solutions place full responsibility for security patches, backups, and mobile sync infrastructure on the operator**.
-- **Open-source mobile agile tracking is early-stage and fragmented**—clients like Taiga Mobile Nova, Vikunja, and Plane Mobile offer active development, but self-hosted deployments require continuous maintenance.
-- Verify license terms for commercial use.
+1. 🍴 Fork the repository.
+2. 🌿 Create a new feature branch (`git checkout -b feature/new-agile-tool`).
+3. 📝 Add or update entries in `README.md` (ensure pricing, free tier limits, and links are accurate).
+4. 🚀 Commit your changes (`git commit -m "Add NewTool to mobile agile directory"`).
+5. 📤 Push to the branch (`git push origin feature/new-agile-tool`).
+6. 📬 Submit a Pull Request describing your updates.
 
 ---
 
-**Made for scrum masters, product owners, and developers choosing their on-the-go agile tracking stack.**
+## 💖 Support & Sponsorship
+
+If you find this curated list valuable for evaluating mobile sprint trackers, agile tools, or self-hosted backends, please consider showing your support:
+
+- ⭐ **Star this repository** to boost visibility for the developer and agile community!
+- 🍴 **Fork and share** it with your scrum teams, product owners, and agile engineering peers.
+- ☕ **Buy a coffee & sponsor**: Support continued curation and open-source contributions directly on the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007).
+
+Thank you for being part of the open-source community! 🙌
+
+---
+
+## ⭐ Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Mobile-Agile-Project-Tracking&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Mobile-Agile-Project-Tracking&type=date&legend=top-left)
+
+---
+
+## ⚖️ Disclaimer
+
+- This curated collection is maintained for informational and educational purposes only; inclusion does not constitute endorsement.
+- Mobile agile tracking platforms handling sprint data, proprietary backlogs, and user telemetry must comply with internal organizational security policies.
+- Self-hosted solutions require operators to maintain their own backup routines, SSL/TLS configurations, and secure mobile sync gateways.
+- All product names, logos, and brands are property of their respective owners.
+
+---
+
+<div align="center">
+  <b>Built with ❤️ for Scrum Masters, Product Owners, and Agile Engineers worldwide.</b>
+</div>
